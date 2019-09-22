@@ -497,7 +497,7 @@ public class RBACController {
      * @return
      */
     @RequestMapping("/userAcls")
-//    @RequiresPermissions("/rbac/userAcls")
+    @RequiresPermissions("/rbac/userAcls")
     public Result userAcls(Long id) {
         try {
             List<AclInfo> list = treeService.userAcls(id);

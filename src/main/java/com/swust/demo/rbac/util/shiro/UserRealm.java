@@ -34,7 +34,6 @@ public class UserRealm extends AuthorizingRealm {
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection arg0) {
         UserInfo user = ShiroUtils.getUser();
-        System.out.println(user);
         SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
         // 1 角色加入AuthorizationInfo认证对象
 //        info.setRoles(user.getRoles());
