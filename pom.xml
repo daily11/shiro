@@ -20,7 +20,7 @@
         <java.version>1.8</java.version>
         <mysql.version>5.1.21</mysql.version>
         <fastjson.version>1.2.47</fastjson.version>
-        <shiro.version>1.4.0</shiro.version>
+        <shiro.version>1.6.0</shiro.version>
         <apache-poi-version>3.10-FINAL</apache-poi-version>
         <commons.io.version>2.5</commons.io.version>
     </properties>
